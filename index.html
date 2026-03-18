@@ -18,6 +18,8 @@
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#marzo-24">24 de Marzo</a></li>
                 <li><a href="#linea-tiempo">Línea de Tiempo</a></li>
+                <li><a href="#lugares-historicos">Lugares Históricos</a></li>
+                <li><a href="#decisiones-interactivas">Decisiones en la Época</a></li>
             </ul>
         </div>
     </nav>
@@ -102,6 +104,37 @@
                 </div>
             </div>
         </section>
+
+        <section id="lugares-historicos" class="lugares-section">
+            <div class="container">
+                <h2 class="section-title centered">10 Sitios Históricos de la Memoria</h2>
+                <p class="section-subtitle centered">Lugares que marcaron nuestra historia. Haz clic en el enlace para ubicarlos hoy en Google Maps.</p>
+                <div class="lugares-grid" id="lugares-root">
+                    <!-- Los lugares se insertaran por JS -->
+                </div>
+            </div>
+        </section>
+
+        <section id="decisiones-interactivas" class="interactive-section">
+            <div class="container">
+                <h2 class="section-title centered">Historias de Vida: Tomando Decisiones</h2>
+                <p class="section-subtitle centered">Ponte en los zapatos de quienes vivieron la época militar. Selecciona tu camino.</p>
+                
+                <div class="quiz-container" id="quiz-container">
+                    <div class="quiz-card" id="quiz-question-card">
+                        <p class="quiz-scenario" id="quiz-scenario">Cargando escenario...</p>
+                        <div class="quiz-options" id="quiz-options">
+                            <!-- Opciones inyectadas por JS -->
+                        </div>
+                    </div>
+                    <div class="quiz-result hidden" id="quiz-result">
+                        <h3 id="quiz-consequence-title">Consecuencia</h3>
+                        <p id="quiz-consequence-text"></p>
+                        <button class="btn btn-primary" id="quiz-next-btn">Siguiente Escenario</button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer class="glass-footer">
@@ -110,6 +143,19 @@
                 <div class="logo">MEMORIA<span>ARG</span></div>
                 <p>Educar para no olvidar. Una plataforma dedicada a la historia argentina.</p>
             </div>
+            
+            <div class="footer-credits">
+                <div class="school-logo">
+                    <img src="logo_escuela_naciones_unidas.jpg" alt="E.E.S Nº1 Naciones Unidas - Monte Grande" />
+                </div>
+                <div class="authors">
+                    <h4>Presentación Especial</h4>
+                    <p>Alumnos de 3° B</p>
+                    <p><strong>Escuela Secundaria E.E.S Nº1 "Naciones Unidas", Monte Grande</strong></p>
+                    <p class="members"><strong>Integrantes:</strong> Brandon Aguirre, Zoe Aguilar, Maximo Maciel.</p>
+                </div>
+            </div>
+
             <div class="footer-copy">
                 &copy; 2026 Memoria Argentina. Hecho con respeto y compromiso histórico.
             </div>
