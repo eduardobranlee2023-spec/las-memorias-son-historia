@@ -239,6 +239,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         loadQuiz(0);
     }
+
+    // Fix for auto-scroll issue: ensure page starts at top
+    window.scrollTo(0, 0);
 });
 
 
