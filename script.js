@@ -64,16 +64,36 @@ const monthNames = {
 };
 
 const lugaresData = [
-    { name: "ESMA (Escuela de Mecánica de la Armada)", desc: "El centro clandestino de detención más grande y emblemático, hoy convertido en Espacio para la Memoria.", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Esma01.jpg/800px-Esma01.jpg", link: "https://maps.app.goo.gl/wY5C4aJjQ2z92jQo7" },
-    { name: "Club Atlético", desc: "Funcionó en el sótano de la Policía Federal en CABA. Miles de personas pasaron por este centro. Hoy es un sitio arqueológico.", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Sitio_memoria_Atl%C3%A9tico_1.jpg/800px-Sitio_memoria_Atl%C3%A9tico_1.jpg", link: "https://maps.app.goo.gl/P3PZZg1W2zY14p4e8" },
-    { name: "Mansión Seré", desc: "Ubicada en Morón, Buenos Aires, administrada por la Fuerza Aérea. En 1978, un grupo de prisioneros logró fugarse.", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Mansionsere-bustos.jpg/800px-Mansionsere-bustos.jpg", link: "https://maps.app.goo.gl/J2Yp5zW1wZqXyFkT9" },
-    { name: "Olimpo", desc: "Funcionó bajo la órbita del Primer Cuerpo de Ejército. Se destacó por sus brutales métodos en el barrio de Floresta.", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Centro_Clandestino_de_Detenci%C3%B3n_Olimpo.JPG/800px-Centro_Clandestino_de_Detenci%C3%B3n_Olimpo.JPG", link: "https://maps.app.goo.gl/5rVwWQ4H9kXT4yXv9" },
-    { name: "Pozo de Banfield", desc: "Un eslabón del 'Circuito Camps'. Fue utilizado como maternidad clandestina donde muchas embarazadas dieron a luz en cautiverio.", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Espacio_para_la_Memoria_ex_Pozo_de_Banfield.jpg/800px-Espacio_para_la_Memoria_ex_Pozo_de_Banfield.jpg", link: "https://maps.app.goo.gl/2F3TfXk8m9k6B8Yq7" },
-    { name: "Automotores Orletti", desc: "Fachada de un taller mecánico que sirvió de base principal operativa para el represivo Plan Cóndor en el cono sur.", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Orletti01.jpg/800px-Orletti01.jpg", link: "https://maps.app.goo.gl/A4dRXzV1ZfN7xU6P6" },
-    { name: "Plaza de Mayo", desc: "Punto de encuentro de las Madres y Abuelas, marchando cada jueves reclamando aparición con vida y justicia.", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Plaza_de_Mayo%2C_Buenos_Aires%2C_Argentina.jpg/800px-Plaza_de_Mayo%2C_Buenos_Aires%2C_Argentina.jpg", link: "https://maps.app.goo.gl/d2P9oYX8w2mQY9S58" },
-    { name: "La Perla (Córdoba)", desc: "El mayor centro clandestino del interior, en Córdoba, al mando del General Luciano Benjamín Menéndez.", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/La_perla_frente.jpg/800px-La_perla_frente.jpg", link: "https://maps.app.goo.gl/f7J8MhL1n8KQW8L46" },
-    { name: "Base Naval Mar del Plata (El Faro)", desc: "Centro de detención en la ciudad costera, fuertemente vinculado con desapariciones y los denominados 'vuelos de la muerte'.", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Faro_Punta_Mogotes_espacio_memoria_4.jpg/800px-Faro_Punta_Mogotes_espacio_memoria_4.jpg", link: "https://maps.app.goo.gl/x2zWQ1bY9z2hU8XRA" },
-    { name: "Parque de la Memoria", desc: "Monumento a las Víctimas del Terrorismo de Estado, frente al Río de la Plata, conteniendo miles de nombres esculpidos.", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Monumento_a_las_V%C3%ADctimas_del_Terrorismo_de_Estado_%28PA01%29.jpg/800px-Monumento_a_las_V%C3%ADctimas_del_Terrorismo_de_Estado_%28PA01%29.jpg", link: "https://maps.app.goo.gl/v5e2R2z9qY9M5M8S7" }
+  { name: "ESMA (Escuela de Mecánica de la Armada)", desc: "Uno de los centros clandestinos más grandes del país. Fue símbolo del terrorismo de Estado. Hoy es el Espacio Memoria y Derechos Humanos.", link: "https://maps.google.com/?q=ESMA+Buenos+Aires", img: "" },
+  { name: "Club Atlético", desc: "Funcionaba en el subsuelo de la Policía Federal. Miles de detenidos pasaron por allí; hoy es sitio arqueológico.", link: "https://maps.google.com/?q=Club+Atl%C3%A9tico+Centro+Clandestino+Buenos+Aires", img: "" },
+  { name: "Mansión Seré", desc: "Centro clandestino en Morón operado por la Fuerza Aérea. Famoso por la fuga de detenidos en 1978.", link: "https://maps.google.com/?q=Mansi%C3%B3n+Ser%C3%A9+Mor%C3%B3n", img: "" },
+  { name: "Olimpo", desc: "Centro de detención en el barrio de Floresta. Destacado por su brutalidad dentro del circuito represivo.", link: "https://maps.google.com/?q=Olimpo+Centro+Clandestino+Floresta", img: "" },
+  { name: "Pozo de Banfield", desc: "Parte del “Circuito Camps”. Funcionó como maternidad clandestina donde nacieron bebés en cautiverio.", link: "https://maps.google.com/?q=Pozo+de+Banfield", img: "" },
+  { name: "Automotores Orletti", desc: "Taller mecánico usado como centro clandestino. Base del Plan Cóndor, coordinación represiva internacional.", link: "https://maps.google.com/?q=Automotores+Orletti", img: "" },
+  { name: "Plaza de Mayo", desc: "Plaza central de Buenos Aires. Lugar histórico de las marchas de las Madres y Abuelas.", link: "https://maps.google.com/?q=Plaza+de+Mayo", img: "" },
+  { name: "La Perla (Córdoba)", desc: "Centro clandestino más grande del interior del país. Núcleo del aparato represivo en Córdoba.", link: "https://maps.google.com/?q=La+Perla+C%C3%B3rdoba+Memoria", img: "" },
+  { name: "Base Naval Mar del Plata (El Faro)", desc: "Instalación naval utilizada durante la dictadura. Vinculada a desapariciones y “vuelos de la muerte”.", link: "https://maps.google.com/?q=Base+Naval+Mar+del+Plata+Faro", img: "" },
+  { name: "Parque de la Memoria", desc: "Monumento frente al Río de la Plata. Contiene los nombres de miles de desaparecidos.", link: "https://maps.google.com/?q=Parque+de+la+Memoria+Buenos+Aires", img: "" },
+  { name: "Casa de la Masacre de Monte Grande", desc: "Vivienda donde ocurrió un operativo represivo. Representa la violencia directa en el conurbano bonaerense.", link: "https://maps.google.com/?q=Boulevard+Buenos+Aires+1151+Luis+Guill%C3%B3n", img: "" },
+  { name: "Plaza de la Memoria (Monte Grande)", desc: "Espacio conmemorativo local. Punto de memoria y actos por el 24 de marzo.", link: "https://maps.google.com/?q=Boulevard+Buenos+Aires+y+Salta+Monte+Grande", img: "" },
+  { name: "Ruta 205", desc: "Vía clave del conurbano sur. Asociada a traslados y operativos durante la dictadura.", link: "https://maps.google.com/?q=Ruta+205+Buenos+Aires", img: "" },
+  { name: "Comisaría 1° de Monte Grande", desc: "Dependencia policial histórica. Señalada en testimonios como lugar de detención.", link: "https://maps.google.com/?q=Sofia+Terrero+de+Santamarina+474+Monte+Grande", img: "" },
+  { name: "Cementerio Municipal de Monte Grande", desc: "Cementerio local. Lugar vinculado a enterramientos e investigaciones posteriores.", link: "https://maps.google.com/?q=Cementerio+Monte+Grande", img: "" },
+  { name: "El Vesubio", desc: "Centro clandestino ubicado en La Matanza, bajo control del Ejército. Fue uno de los principales lugares de tortura y desaparición del Primer Cuerpo.", link: "https://maps.google.com/?q=El+Vesubio+Centro+Clandestino+La+Matanza", img: "" },
+  { name: "Pozo de Quilmes", desc: "Centro clandestino que funcionó en una brigada policial. Parte del “Circuito Camps”, clave en secuestros y desapariciones en el conurbano.", link: "https://maps.google.com/?q=Pozo+de+Quilmes", img: "" },
+  { name: "Campo de Mayo", desc: "Complejo militar con múltiples centros clandestinos. Lugar donde funcionaron maternidades clandestinas y se realizaron vuelos de la muerte.", link: "https://maps.google.com/?q=Campo+de+Mayo", img: "" },
+  { name: "Comisaría 5° de La Plata", desc: "Dependencia policial utilizada como centro de detención. Asociada a secuestros de estudiantes (como en la “Noche de los Lápices”).", link: "https://maps.google.com/?q=Comisaria+5+La+Plata", img: "" },
+  { name: "Arana (Centro Clandestino)", desc: "Instalación rural utilizada para detenciones ilegales. Vinculada a torturas y ejecuciones en la zona de La Plata.", link: "https://maps.google.com/?q=Arana+Centro+Clandestino+La+Plata", img: "" },
+  { name: "ESIM (Escuela de Suboficiales de Infantería de Marina)", desc: "Dependencia de la Armada. Funcionó como centro clandestino en la costa atlántica.", link: "https://maps.google.com/?q=ESIM+Mar+del+Plata", img: "" },
+  { name: "Quinta de Funes", desc: "Casa operativa en Santa Fe. Utilizada para inteligencia y detención dentro del Plan Cóndor.", link: "https://maps.google.com/?q=Quinta+de+Funes+Santa+Fe", img: "" },
+  { name: "La Escuelita (Bahía Blanca)", desc: "Centro clandestino en instalaciones militares. Punto clave de represión en el sur bonaerense.", link: "https://maps.google.com/?q=La+Escuelita+Bahia+Blanca", img: "" },
+  { name: "Batallón de Comunicaciones 601 (City Bell)", desc: "Unidad militar del Ejército. Señalada en múltiples testimonios por detenciones ilegales.", link: "https://maps.google.com/?q=Batallon+601+City+Bell", img: "" },
+  { name: "D2 Mendoza", desc: "Departamento de Informaciones de la policía mendocina. Centro de tortura emblemático en la provincia de Mendoza.", link: "https://maps.google.com/?q=D2+Mendoza+Memoria", img: "" },
+  { name: "La Ribera (Córdoba)", desc: "Centro clandestino previo a La Perla. Parte del circuito represivo cordobés.", link: "https://maps.google.com/?q=La+Ribera+C%C3%B3rdoba+Memoria", img: "" },
+  { name: "Jefatura de Policía de Rosario", desc: "Edificio policial histórico. Utilizado para detenciones ilegales durante la dictadura.", link: "https://maps.google.com/?q=Jefatura+Policia+Rosario", img: "" },
+  { name: "Fábrica Militar de Villa María", desc: "Instalación industrial militar. Señalada como lugar de detención clandestina.", link: "https://maps.google.com/?q=Fabrica+Militar+Villa+Maria", img: "" },
+  { name: "Ingenio Ledesma (Jujuy)", desc: "Empresa azucarera. Vinculada a “La Noche del Apagón”, donde hubo secuestros masivos.", link: "https://maps.google.com/?q=Ingenio+Ledesma+Jujuy", img: "" },
+  { name: "Regimiento de Infantería 9 (Corrientes)", desc: "Unidad militar. Funcionó como centro clandestino en el nordeste argentino.", link: "https://maps.google.com/?q=Regimiento+9+Corrientes", img: "" }
 ];
 
 const quizData = [
@@ -218,5 +238,73 @@ document.addEventListener('DOMContentLoaded', () => {
             loadQuiz(currentQuizIndex);
         });
         loadQuiz(0);
+    }
+});
+
+
+const testimoniosData = [
+  // Menores
+  { icon: "🧒", name: "1. Simón Antonio Riquelo", info: "Edad: bebé | Situación: desaparecido / apropiado", text: '"El 13 de julio de 1976 (...) me encontraba terminándole de dar el pecho a mi hijo Simón. Forzaron la puerta (...) comenzaron a torturarme (...) Cuando me sacaron de la casa les pregunté qué iba a ocurrir con el niño. Me respondieron que no debía preocuparme, que el niño se iba a quedar con ellos (...) Esa fue la última vez que vi a Simón." - Testimonio (madre)' },
+  { icon: "🧒", name: "2. Griselda (13 años) y bebé Viviana", info: "Situación: abandono durante operativo", text: '"Optaron por llevarnos a todos, menos a Viviana, de seis meses de edad, que junto con Griselda, mi hermana de 13 años, quedaron en el domicilio."' },
+  { icon: "🧒", name: "3. Hijos de Norberto Liwsky", info: "Edad: menores | Situación: secuestro familiar", text: '"Mi esposa y mis dos hijas ya habían sido capturadas y \'chupadas\'." - Testimonio (padre)' },
+  { icon: "🧒", name: "4. Hijo de María Teresa de Cuello", info: "Situación: testigo directo de secuestro", text: '"El 26 de noviembre de 1976 a la madrugada invadieron nuestra vivienda (...) preguntaron quién era Teresa (...) la secuestraron (...) cuando mi padre intentó oponerse, le partieron la cabeza de un culatazo." - Testimonio (hijo)' },
+  { icon: "🧒", name: "5. Niños en Hospital de Campo de Mayo", info: "Edades: 2, 3 y 5 años | Situación: niños retenidos en ámbito militar", text: '"Vi a niños pequeños (...) dos chiquitos de 3 y 5 años (...) otra vez una criatura de aproximadamente 2 años, que lloraba pidiendo a su madre (...) al pasar algunas horas más tarde (...) los chicos ya no estaban." - Testimonio (médico)' },
+  { icon: "🧒", name: "6. Menores apropiadas", info: "Situación: apropiación y adopción ilegal", text: '"El Tribunal procedió entonces a entregar a las menores en guarda provisoria (...) un año después (...) obtuvo la adopción plena." - Testimonio institucional' },
+  { icon: "🧒", name: "7. Niños en centros clandestinos", info: "Situación: tortura / exposición", text: '"Presenciaban las torturas a que eran sometidos sus padres, o eran ellos mismos torturados en presencia de éstos." - Testimonio general' },
+  { icon: "🧒", name: "8. Niños durante secuestros domiciliarios", info: "Edad: 5 años", text: '"Le dijeron al nene que cerrara los ojos."' },
+
+  // Embarazadas y violencia a mujeres
+  { icon: "🤰", name: "1. Mujer embarazada en cautiverio", info: "Situación: embarazo dentro de centro clandestino", text: '"Había una chica embarazada (...) estaba muy avanzada (...) la mantenían en las mismas condiciones que a todos (...) atada, vendada (...) se quejaba mucho por los dolores." - Testimonio de sobreviviente' },
+  { icon: "🤰", name: "2. Parto en cautiverio", info: "Situación: nacimiento dentro de centro clandestino", text: '"Una detenida dio a luz en el lugar (...) no había ningún tipo de atención médica adecuada (...) después del nacimiento, el bebé fue separado de la madre."' },
+  { icon: "🤰", name: "3. Embarazada desaparecida", info: "Situación: secuestro estando embarazada", text: '"Se encontraba embarazada al momento de su detención (...) fue vista en el centro clandestino (...) luego no se volvió a saber ni de ella ni del hijo."' },
+  { icon: "🤰", name: "4. Testimonio sobre mujeres embarazadas en centros", info: "Situación: patrón sistemático", text: '"Las embarazadas eran mantenidas con vida hasta el momento del parto (...) luego se apropiaban de los niños."' },
+  { icon: "👩", name: "5. Testimonio de mujer detenida", info: "Situación: violencia extrema", text: '"Fui secuestrada en mi casa (...) me golpearon (...) me aplicaron picana eléctrica (...) permanecí vendada todo el tiempo."' },
+  { icon: "👨", name: "6. Sobreviviente", info: "Situación: tortura sistemática", text: '"Me desnudaron (...) me ataron a una cama metálica (...) comenzaron a pasarme corriente eléctrica por todo el cuerpo."' },
+  { icon: "👩👧", name: "7. Madre separada de su hijo", info: "Situación: dolor de una madre", text: '"Escuchaba a mi hijo llorar (...) no me dejaban verlo (...) no supe más de él."' },
+  { icon: "👨", name: "8. Secuestro con violencia extrema", info: "Situación: operativo nocturno", text: '"Entraron de noche (...) rompieron todo (...) me tiraron al piso (...) me llevaron encapuchado."' },
+  { icon: "👩", name: "9. Detenida", info: "Situación: aislamiento total", text: '"No sabía si era de día o de noche (...) estaba siempre vendada (...) los gritos eran constantes."' },
+  { icon: "👨👩👧", name: "10. Familia completa secuestrada", info: "Situación: desmembramiento familiar", text: '"Nos llevaron a todos (...) nos separaron (...) nunca más volví a ver a algunos de ellos."' },
+
+  // La Noche de los Lápices
+  { icon: "✏️", name: "Pablo Díaz", info: "Situación: Sobreviviente de la Noche de los Lápices", text: '“Yo tenía 17 años y participaba en la lucha por el boleto estudiantil. El 21 de septiembre de 1976, de madrugada, varios hombres armados llegaron a mi casa... Lo único que escuchaba eran gritos de otras personas. Ahí entendí que no estaba solo... Yo sigo contando lo que pasó porque no quiero que se olvide. Nosotros fuimos testigos de lo que les hicieron a otros. Tenemos sus últimas palabras, sus últimas miradas. Y eso no puede desaparecer.”' },
+
+  // Mas testimonios
+  { icon: "👨", name: "1. Juan de Dios Gómez", info: "Situación: detenido-desaparecido", text: '"El 10 de agosto de 1976 (...) detuvieron a mi hijo Juan de Dios Gómez (...) Después se fueron con mi hijo y no tuvimos más noticias de él." - Testimonio (madre)' },
+  { icon: "👨", name: "3. Norberto Liwsky", info: "Situación: secuestro familiar", text: '"Mi esposa y mis dos hijas ya habían sido capturadas y \'chupadas\'."' },
+  { icon: "👨", name: "4. Alberto Santiago Bumichon", info: "Situación: secuestro y asesinato", text: '"Mi esposo, mi hijo David y yo fuimos secuestrados (...) Mi hijo fue liberado (...) El cadáver de mi esposo fue hallado con siete impactos de bala en la garganta." - Testimonio (esposa)' },
+  { icon: "👩", name: "5. Graciela Mabel Barroca", info: "Situación: estudiante desaparecida", text: '"Mi otra hija (...) regresó (...) ya que al día siguiente tenía un examen (...) la detuvieron (...) y se la llevaron (...) sigue desaparecida." - Testimonio (madre)' },
+  { icon: "👨👩👧", name: "6. Familia Núñez", info: "Situación: operativo violento + múltiples secuestros", text: '"Durante el operativo (...) no permitieron que nadie me auxiliara (...) debí permanecer en la misma posición sin comer ni ser atendida (...) amenazada de continuo." - Testimonio (familiar cuadripléjica)' },
+  { icon: "👨", name: "7. Testimonio de sobreviviente", info: "Situación: tortura en centro clandestino", text: '"Fui encapuchado (...) atado (...) comenzaron a aplicarme picana eléctrica en distintas partes del cuerpo (...) los interrogatorios eran constantes."' },
+  { icon: "👨", name: "8. Testimonio sobre secuestro nocturno", info: "Situación: irrupción domiciliaria", text: '"Forzaron la puerta (...) entraron violentamente (...) me golpearon (...) me encapucharon y me llevaron sin dar explicación."' },
+  { icon: "👩", name: "9. Testimonio de mujer detenida", info: "Situación: detención ilegal + tortura", text: '"Fui detenida sin orden judicial (...) me mantuvieron vendada (...) escuchaba los gritos de otras personas siendo torturadas."' },
+  { icon: "👨", name: "10. Testimonio sobre centros clandestinos", info: "Situación: condiciones de detención", text: '"Permanecíamos vendados (...) no sabíamos si era de día o de noche (...) los gritos eran permanentes."' }
+];
+
+// Render Testimonios
+document.addEventListener('DOMContentLoaded', () => {
+    const testimoniosRoot = document.getElementById('testimonios-root');
+    if (testimoniosRoot) {
+        testimoniosData.forEach((testimonio, i) => {
+            const card = document.createElement('div');
+            card.className = "testimonio-card fade-in";
+            card.innerHTML = `
+                <div class="testimonio-icon">${testimonio.icon}</div>
+                <div class="testimonio-content">
+                    <h3>${testimonio.name}</h3>
+                    <p class="testimonio-info">${testimonio.info}</p>
+                    <blockquote class="testimonio-text">${testimonio.text}</blockquote>
+                </div>
+            `;
+            testimoniosRoot.appendChild(card);
+            // Observer is already defined in script.js, but let's re-observe it manually or use a new observer
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('show');
+                    }
+                });
+            }, { threshold: 0.1 });
+            observer.observe(card);
+        });
     }
 });

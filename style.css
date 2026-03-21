@@ -718,3 +718,209 @@ section {
     .timeline-event::before { left: 6px; }
     .timeline-event { padding-left: 45px; }
 }
+
+/* Testimonios Section */
+.testimonios-section {
+    background-color: var(--darker);
+    padding: 100px 0;
+    color: white;
+}
+.testimonios-container {
+    max-width: 800px;
+}
+.testimonio-card {
+    background: transparent;
+    border-left: 2px solid rgba(255,255,255,0.2);
+    padding: 40px 0 40px 40px;
+    margin-bottom: 80px;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 1s ease-out;
+    display: flex;
+    gap: 30px;
+}
+.testimonio-card.show {
+    opacity: 1;
+    transform: translateY(0);
+    border-color: var(--light-blue);
+}
+.testimonio-icon {
+    font-size: 3rem;
+    line-height: 1;
+}
+.testimonio-content h3 {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    color: var(--accent);
+}
+.testimonio-info {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.testimonio-text {
+    font-size: 1.25rem;
+    font-style: italic;
+    line-height: 1.8;
+    color: #f0f0f0;
+}
+
+/* New Memorial Sections Styles */
+.accent-border {
+    border-bottom: 1px solid var(--glass-border);
+}
+
+.testimony-card-alt {
+    padding: 40px;
+    background: linear-gradient(135deg, rgba(255,184,28,0.1), rgba(0,48,135,0.1));
+    border-left: 4px solid var(--accent);
+}
+
+.testimony-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.quote-icon {
+    font-family: var(--font-heading);
+    font-size: 4rem;
+    color: var(--accent);
+    line-height: 0.5;
+    margin-top: 20px;
+}
+
+.testimony-body {
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #f0f0f0;
+    line-height: 1.7;
+}
+
+/* Abuelas Section */
+.standard-section {
+    background-color: var(--dark);
+    padding: 100px 0;
+}
+
+.light-accent {
+    background: radial-gradient(circle at top right, rgba(117,170,219,0.05), transparent);
+}
+
+.abuelas-intro {
+    max-width: 800px;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    color: var(--text);
+}
+
+.abuelas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.importance-box {
+    margin-top: 60px;
+    padding: 30px;
+    background: var(--glass-heavy);
+    border: 1px solid var(--light-blue);
+    border-radius: 16px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+/* Cultura Section */
+.cultura-section {
+    background-color: var(--darker);
+}
+
+.cultura-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.cultura-item {
+    background: var(--glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+    padding: 30px;
+    transition: var(--transition);
+}
+
+.cultura-item:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent);
+}
+
+.video-container {
+    margin-top: 25px;
+    border-radius: 12px;
+    overflow: hidden;
+    aspect-ratio: 16/9;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.synopsis {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    margin: 15px 0;
+}
+
+.books-container {
+    margin-top: 100px;
+}
+
+.subsection-title {
+    font-family: var(--font-heading);
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.book-card {
+    background: rgba(255,255,255,0.02);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.book-card h4 {
+    color: var(--light-blue);
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.btn-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 20px;
+    transition: var(--transition);
+}
+
+.btn-link:hover {
+    gap: 12px;
+}
