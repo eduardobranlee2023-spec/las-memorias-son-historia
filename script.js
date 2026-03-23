@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.querySelectorAll('.info-card, .info-block').forEach(el => observer.observe(el));
 
-    // Render 10 Lugares
+    // Render 30 Lugares
     const lugaresRoot = document.getElementById('lugares-root');
     if (lugaresRoot) {
         lugaresData.forEach((lugar, i) => {
